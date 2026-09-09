@@ -10,18 +10,18 @@ export const metadata: Metadata = {
   description:
     "How 2JBet login and registration, plus password recovery, account security tips, and what to do if your login isn't working",
   keywords: ["2JBet login"],
-  alternates: { canonical: `${SITE_URL}/2jbet-pkr-login` },
+  alternates: { canonical: `${SITE_URL}/2jbet-pk-login` },
 };
 
 export default function LoginPage() {
-  const pageUrl = `${SITE_URL}/2jbet-pkr-login`;
+  const pageUrl = `${SITE_URL}/2jbet-pk-login`;
   const schema = graphJsonLd(
     webPageJsonLd({
       type: "TechArticle",
       name: "2JBet Login & Registration – Complete Account Guide",
       description:
         "How 2JBet login and registration, plus password recovery, account security tips, and what to do if your login isn't working",
-      path: "/2jbet-pkr-login",
+      path: "/2jbet-pk-login",
       keywords: ["2JBet login", "2JBet registration", "2JBet account"],
       about: "2JBet account login and registration process",
       image: "/images/2JBet-PKR-Login.webp",
@@ -30,7 +30,7 @@ export default function LoginPage() {
     }),
     breadcrumbJsonLd([
       { name: "Home", path: "/" },
-      { name: "2JBet Login & Registration", path: "/2jbet-pkr-login" },
+      { name: "2JBet Login & Registration", path: "/2jbet-pk-login" },
     ]),
     howToJsonLd({
       name: "How to Register for a 2JBet Account",
@@ -211,7 +211,7 @@ export default function LoginPage() {
           <ul>
             <li>2JBet APK Download → downloading and installing the application</li>
             <li>
-              <Link href="/2jbet-pkr-guide">2JBet Complete Guide</Link> → what 2JBet is and how the platform works
+              <Link href="/2JBet-Guide">2JBet APK Complete Guide</Link> → what 2JBet is and how the platform works
             </li>
             <li>2JBet Account → registration, login, password recovery, and account information</li>
           </ul>
@@ -402,7 +402,7 @@ export default function LoginPage() {
               <p className="faq-a">
                 Some platform features may require an account, particularly features involving account balances
                 or real-money activity. Check the current requirements for the particular{" "}
-                <Link href="/2jbet-pkr-games">2JBet games</Link> or service.
+                <Link href="/2jbet-pk-games">2JBet games</Link> or service.
               </p>
             </li>
             <li>
@@ -448,7 +448,7 @@ export default function LoginPage() {
           <h2>Related 2JBet Pages</h2>
           <ul>
             <li>
-              <Link href="/2jbet-pkr-referral-bonus">2JBet referral and invite guide</Link> – referral program
+              <Link href="/2jbet-referral-bonus">2JBet referral and invite guide</Link> – referral program
               information
             </li>
           </ul>

@@ -10,18 +10,18 @@ export const metadata: Metadata = {
   description:
     "How the 2JBet referral program works — getting your link or code, how rewards are tracked, and what to check before relying on a bonus.",
   keywords: ["2JBet Referral"],
-  alternates: { canonical: `${SITE_URL}/2jbet-pkr-referral-bonus` },
+  alternates: { canonical: `${SITE_URL}/2jbet-referral-bonus` },
 };
 
 export default function ReferralPage() {
-  const pageUrl = `${SITE_URL}/2jbet-pkr-referral-bonus`;
+  const pageUrl = `${SITE_URL}/2jbet-referral-bonus`;
   const schema = graphJsonLd(
     webPageJsonLd({
       type: "Article",
       name: "2JBet Referral – Referral Program, Code & Invite Guide",
       description:
         "How the 2JBet referral program works — getting your link or code, how rewards are tracked, and what to check before relying on a bonus.",
-      path: "/2jbet-pkr-referral-bonus",
+      path: "/2jbet-referral-bonus",
       keywords: ["2JBet Referral", "2JBet referral bonus", "2JBet invite"],
       about: "2JBet referral and affiliate program",
       image: "/images/2JBet-PKR.webp",
@@ -30,7 +30,7 @@ export default function ReferralPage() {
     }),
     breadcrumbJsonLd([
       { name: "Home", path: "/" },
-      { name: "2JBet Referral Bonus", path: "/2jbet-pkr-referral-bonus" },
+      { name: "2JBet Referral Bonus", path: "/2jbet-referral-bonus" },
     ]),
     howToJsonLd({
       name: "How the 2JBet Referral Program Works",
@@ -87,14 +87,14 @@ export default function ReferralPage() {
           <p>
             The 2JBet referral program is designed to allow existing participants or affiliates to introduce new
             users to the platform. For background on what 2JBet is, see the{" "}
-            <Link href="/2jbet-pkr-guide">2JBet Complete Guide</Link>.
+            <Link href="/2JBet-Guide">2JBet APK Complete Guide</Link>.
           </p>
           <p>The basic concept is straightforward:</p>
           <ol>
             <li>A participant obtains a referral or affiliate link.</li>
             <li>The participant shares the link with another person.</li>
             <li>The new user follows the referral link.</li>
-            <li>The new user completes any required <Link href="/2jbet-pkr-login">2JBet registration</Link> or qualifying activity.</li>
+            <li>The new user completes any required <Link href="/2jbet-pk-login">2JBet registration</Link> or qualifying activity.</li>
             <li>The referral is tracked by the platform.</li>
             <li>Any applicable reward or commission is handled according to the current program terms.</li>
           </ol>
@@ -106,7 +106,7 @@ export default function ReferralPage() {
           <p>
             The current 2JBet website describes an affiliate system where users can obtain a referral link and
             monitor statistics through an affiliate dashboard. It also mentions promotional materials intended to
-            help affiliates promote the platform and its <Link href="/2jbet-pkr-games">2JBet games</Link>.
+            help affiliates promote the platform and its <Link href="/2jbet-pk-games">2JBet games</Link>.
           </p>
           <p>
             In general, the important part of a referral system is that the new user needs to be correctly

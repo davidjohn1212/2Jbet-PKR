@@ -6,23 +6,23 @@ import { GUIDE_FAQS } from "@/lib/page-faqs";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "2JBet PKR Complete Guide 2026",
+  title: "2JBet APK Complete Guide for Android 2026",
   description:
     "Learn what is 2JBet, how it works, and what games it offers. An independent guide covering account setup, safety, and legitimacy information.",
-  keywords: ["What is 2JBet", "2JBet PKR Complete Guide 2026"],
-  alternates: { canonical: `${SITE_URL}/2jbet-pkr-guide` },
+  keywords: ["What is 2JBet", "2JBet APK Complete Guide for Android 2026", "2JBet Guide"],
+  alternates: { canonical: `${SITE_URL}/2JBet-Guide` },
 };
 
-export default function TwoJBetPkrGuidePage() {
-  const pageUrl = `${SITE_URL}/2jbet-pkr-guide`;
+export default function TwoJBetGuidePage() {
+  const pageUrl = `${SITE_URL}/2JBet-Guide`;
   const schema = graphJsonLd(
     webPageJsonLd({
       type: "Article",
-      name: "2JBet PKR Complete Guide 2026",
+      name: "2JBet APK Complete Guide for Android 2026",
       description:
         "Learn what is 2JBet, how it works, and what games it offers. An independent guide covering account setup, safety, and legitimacy information.",
-      path: "/2jbet-pkr-guide",
-      keywords: ["What is 2JBet", "2JBet PKR Complete Guide 2026", "2JBet guide"],
+      path: "/2JBet-Guide",
+      keywords: ["What is 2JBet", "2JBet APK Complete Guide for Android 2026", "2JBet Guide"],
       about: "2JBet online gaming platform overview",
       image: "/images/2JBet-PKR.webp",
       datePublished: "2026-09-01",
@@ -30,7 +30,7 @@ export default function TwoJBetPkrGuidePage() {
     }),
     breadcrumbJsonLd([
       { name: "Home", path: "/" },
-      { name: "2JBet PKR Complete Guide 2026", path: "/2jbet-pkr-guide" },
+      { name: "2JBet APK Complete Guide for Android 2026", path: "/2JBet-Guide" },
     ]),
     faqPageJsonLd(GUIDE_FAQS, pageUrl),
   );
@@ -39,7 +39,7 @@ export default function TwoJBetPkrGuidePage() {
     <div className="main-grid">
       <article className="content-page">
         <JsonLd data={schema} />
-        <h1 className="content-title">2JBet PKR Complete Guide 2026</h1>
+        <h1 className="content-title">2JBet APK Complete Guide for Android 2026</h1>
         <p className="content-intro">
           2JBet is an online gaming platform that provides users with access to different types of games through
           a mobile and web-based experience. The platform&apos;s available selection can include casino-style
@@ -112,7 +112,7 @@ export default function TwoJBetPkrGuidePage() {
           <p>
             The specific game library can change, so users should check the current game section for the latest
             selection. For a more detailed breakdown, visit our{" "}
-            <Link href="/2jbet-pkr-games">2JBet Games</Link> page.
+            <Link href="/2jbet-pk-games">2JBet Games</Link> page.
           </p>
         </section>
 
@@ -172,7 +172,7 @@ export default function TwoJBetPkrGuidePage() {
           <p>
             Do not provide account information through unofficial websites or to people claiming to represent
             customer support. For detailed information, visit our{" "}
-            <Link href="/2jbet-pkr-login">2JBet Login &amp; Registration</Link> page.
+            <Link href="/2jbet-pk-login">2JBet Login &amp; Registration</Link> page.
           </p>
         </section>
 
@@ -211,7 +211,7 @@ export default function TwoJBetPkrGuidePage() {
           </p>
           <p>
             Promotions can include different types of bonuses, rewards, or promotional campaigns, including{" "}
-            <Link href="/2jbet-pkr-referral-bonus">2JBet referral program</Link> offers where available. However, a
+            <Link href="/2jbet-referral-bonus">2JBet referral program</Link> offers where available. However, a
             promotional offer should not automatically be considered free cash. Promotions can have conditions
             that must be satisfied before a reward can be used or withdrawn.
           </p>

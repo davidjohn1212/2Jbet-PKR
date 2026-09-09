@@ -5,10 +5,10 @@ import { useEffect, useState } from "react";
 
 const NAV_LINKS = [
   { href: "/", label: "Home" },
-  { href: "/2jbet-pkr-guide", label: "Complete Guide" },
-  { href: "/2jbet-pkr-games", label: "Games" },
-  { href: "/2jbet-pkr-login", label: "Login" },
-  { href: "/2jbet-pkr-referral-bonus", label: "Referral" },
+  { href: "/2JBet-Guide", label: "Complete Guide" },
+  { href: "/2jbet-pk-games", label: "Games" },
+  { href: "/2jbet-pk-login", label: "Login" },
+  { href: "/2jbet-referral-bonus", label: "Referral" },
 ] as const;
 
 export function Header() {

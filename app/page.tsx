@@ -236,11 +236,11 @@ export default function HomePage() {
             <p>
               2JBet is an online gaming platform available for users through its supported application and
               services. For a broader overview of how the platform works, see our{" "}
-              <Link href="/2jbet-pkr-guide">2JBet Complete Guide</Link>.
+              <Link href="/2JBet-Guide">2JBet APK Complete Guide</Link>.
             </p>
             <p>
               The Android APK provides a way for compatible Android devices to access the platform&apos;s{" "}
-              <Link href="/2jbet-pkr-games">2JBet games</Link> without installing the application through the
+              <Link href="/2jbet-pk-games">2JBet games</Link> without installing the application through the
               standard Google Play Store process.
             </p>
             <p>
@@ -286,7 +286,7 @@ export default function HomePage() {
             <h3>Step 5: Open the Application</h3>
             <p>
               Once installation is complete, open 2JBet from your device and follow the application&apos;s
-              instructions, including <Link href="/2jbet-pkr-login">2JBet login and registration</Link> if you need
+              instructions, including <Link href="/2jbet-pk-login">2JBet login and registration</Link> if you need
               an account.
             </p>
             <ContentImage {...HOME_IMAGES.login} />
@@ -390,7 +390,7 @@ export default function HomePage() {
                   Looking for information about referrals and invite features? Our 2JBet Referral page explains
                   how referral programs generally work and what users should check before participating.
                 </p>
-                <Link href="/2jbet-pkr-referral-bonus">2JBet referral program and invite guide</Link>
+                <Link href="/2jbet-referral-bonus">2JBet referral program and invite guide</Link>
               </div>
             </div>
           </section>

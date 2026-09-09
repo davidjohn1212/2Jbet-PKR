@@ -162,13 +162,13 @@ export default function AboutPage() {
             </li>
             <li>
               Beginners who need simple step-by-step instructions in our{" "}
-              <Link href="/2jbet-pkr-guide">Complete Guide</Link>
+              <Link href="/2JBet-Guide">Complete Guide</Link>
             </li>
             <li>
-              Users curious about <Link href="/2jbet-pkr-games">available games</Link>
+              Users curious about <Link href="/2jbet-pk-games">available games</Link>
             </li>
             <li>
-              People who need help with <Link href="/2jbet-pkr-login">login and registration</Link>
+              People who need help with <Link href="/2jbet-pk-login">login and registration</Link>
             </li>
           </ul>
           <p>Our content is written in a way that is accessible to a wide audience.</p>

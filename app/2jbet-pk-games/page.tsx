@@ -12,22 +12,22 @@ import { GAMES_FAQS } from "@/lib/page-faqs";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "2JBet PKR Games – Complete Guide to All Available Games",
+  title: "2JBet PK Games – Complete Guide to All Available Games",
   description:
     "Explore all games available on 2JBet, including Aviator, Teen Patti, Roulette, Mines, and Plinko. See categories, game types, and what to check before playing.",
-  keywords: ["2JBet Games", "2JBet PKR Games"],
-  alternates: { canonical: `${SITE_URL}/2jbet-pkr-games` },
+  keywords: ["2JBet Games", "2JBet PK Games"],
+  alternates: { canonical: `${SITE_URL}/2jbet-pk-games` },
 };
 
 export default function GamesPage() {
-  const pageUrl = `${SITE_URL}/2jbet-pkr-games`;
+  const pageUrl = `${SITE_URL}/2jbet-pk-games`;
   const schema = graphJsonLd(
     webPageJsonLd({
       type: "CollectionPage",
-      name: "2JBet PKR Games – Complete Guide to All Available Games",
+      name: "2JBet PK Games – Complete Guide to All Available Games",
       description:
         "Explore all games available on 2JBet, including Aviator, Teen Patti, Roulette, Mines, and Plinko. See categories, game types, and what to check before playing.",
-      path: "/2jbet-pkr-games",
+      path: "/2jbet-pk-games",
       keywords: ["2JBet Games", "2JBet Aviator", "2JBet Teen Patti", "2JBet Roulette"],
       about: "Games available on the 2JBet platform",
       image: "/images/2JBet-PKR.webp",
@@ -36,7 +36,7 @@ export default function GamesPage() {
     }),
     breadcrumbJsonLd([
       { name: "Home", path: "/" },
-      { name: "2JBet PKR Games", path: "/2jbet-pkr-games" },
+      { name: "2JBet PK Games", path: "/2jbet-pk-games" },
     ]),
     itemListJsonLd({
       name: "2JBet Featured Games",
@@ -68,7 +68,7 @@ export default function GamesPage() {
     <div className="main-grid">
       <article className="content-page">
         <JsonLd data={schema} />
-        <h1 className="content-title">2JBet PKR Games – Complete Guide to All Available Games</h1>
+        <h1 className="content-title">2JBet PK Games – Complete Guide to All Available Games</h1>
         <p className="content-intro">
           If you&apos;re looking for 2JBet games, the platform offers a variety of online casino and gaming
           options across several categories. The current 2JBet game directory lists more than 100 games and
@@ -77,7 +77,7 @@ export default function GamesPage() {
         <p>
           The exact game selection can change over time, so the list below should be used as a guide to the
           types of games and titles currently associated with the platform rather than a permanent catalog.
-          For how 2JBet works overall, see the <Link href="/2jbet-pkr-guide">2JBet Complete Guide</Link>.
+          For how 2JBet works overall, see the <Link href="/2JBet-Guide">2JBet APK Complete Guide</Link>.
         </p>
 
         <section className="content-section">
@@ -352,7 +352,7 @@ export default function GamesPage() {
           <p>This depends on the specific game and the access method offered by the platform.</p>
           <p>
             Some online gaming platforms may provide demonstrations or non-real-money versions of certain games,
-            while others may require a <Link href="/2jbet-pkr-login">2JBet account</Link> or balance to participate.
+            while others may require a <Link href="/2jbet-pk-login">2JBet account</Link> or balance to participate.
           </p>
           <p>
             Check the individual game and current 2JBet terms before assuming that a particular title can be
@@ -454,7 +454,7 @@ export default function GamesPage() {
           <p>For related information, visit:</p>
           <ul>
             <li>
-              <Link href="/2jbet-pkr-referral-bonus">2JBet referral program</Link> – referral and invite information
+              <Link href="/2jbet-referral-bonus">2JBet referral program</Link> – referral and invite information
             </li>
           </ul>
         </section>

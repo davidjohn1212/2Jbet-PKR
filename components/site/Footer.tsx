@@ -38,10 +38,10 @@ export function Footer() {
             <div className="footer-col">
               <div className="footer-col-title">Important Pages</div>
               <Link href="/">2JBet APK Download</Link>
-              <Link href="/2jbet-pkr-guide">Complete Guide</Link>
-              <Link href="/2jbet-pkr-games">2JBet Games</Link>
-              <Link href="/2jbet-pkr-login">Login &amp; Registration</Link>
-              <Link href="/2jbet-pkr-referral-bonus">Referral</Link>
+              <Link href="/2JBet-Guide">Complete Guide</Link>
+              <Link href="/2jbet-pk-games">2JBet Games</Link>
+              <Link href="/2jbet-pk-login">Login &amp; Registration</Link>
+              <Link href="/2jbet-referral-bonus">Referral</Link>
             </div>
           </div>
         </div>

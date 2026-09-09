@@ -28,10 +28,10 @@ Copy `.env.example` to `.env.local` and set:
 | Path | Focus |
 |------|--------|
 | `/` | 2JBet APK Download |
-| `/2jbet-pkr-guide` | Complete guide |
-| `/2jbet-pkr-games` | Games guide |
-| `/2jbet-pkr-login` | Login & registration |
-| `/2jbet-pkr-referral-bonus` | Referral / affiliate guide |
+| `/2JBet-Guide` | Complete guide |
+| `/2jbet-pk-games` | Games guide |
+| `/2jbet-pk-login` | Login & registration |
+| `/2jbet-referral-bonus` | Referral / affiliate guide |
 
 ## Download CTA
 
