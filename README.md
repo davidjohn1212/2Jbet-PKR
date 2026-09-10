@@ -21,7 +21,7 @@ npm run dev:fresh
 
 Copy `.env.example` to `.env.local` and set:
 
-- **`NEXT_PUBLIC_SITE_URL`** – live origin (no trailing slash), e.g. `https://2jbetpk.com`
+- **`NEXT_PUBLIC_SITE_URL`** – live origin (no trailing slash), e.g. `https://2jbetpk.com.pk`
 
 ## Pages
 

@@ -4,7 +4,7 @@ export const dynamic = "force-static";
 
 export function GET() {
   const host = siteOrigin();
-  const body = `# robots.txt for 2jbetpk.com
+  const body = `# robots.txt for 2jbetpk.com.pk
 
 # ============================================
 # AI CONTENT USAGE POLICY (Informational Only)
