@@ -76,6 +76,7 @@ body {
   border-bottom: 1px solid var(--color-border);
   background: var(--color-surface);
   box-shadow: var(--shadow-sm);
+  min-height: 64px;
 }
 
 @media (min-width: 1200px) {
@@ -507,6 +508,8 @@ body {
 
 .hero-icon-wrap {
   flex-shrink: 0;
+  width: 200px;
+  height: 200px;
 }
 
 .app-icon-hero {
@@ -698,8 +701,8 @@ body {
 /* Hero promo image – smaller than full asset for faster paint & layout */
 .hero-promo-image {
   width: 200px;
-  max-width: min(200px, 42vw);
-  height: auto;
+  height: 200px;
+  max-width: 100%;
   aspect-ratio: 1;
   display: block;
   margin: 0;
@@ -710,9 +713,14 @@ body {
 }
 
 @media (max-width: 720px) {
+  .hero-icon-wrap {
+    width: 168px;
+    height: 168px;
+  }
+
   .hero-promo-image {
-    width: min(168px, 38vw);
-    max-width: min(168px, 38vw);
+    width: 168px;
+    height: 168px;
   }
 }
 
