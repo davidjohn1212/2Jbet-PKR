@@ -215,7 +215,7 @@ export default function HomePage() {
         <div className="content-card">
           <section className="content-section" id="download">
             <h2>2JBet APK Download</h2>
-            <ContentImage {...HOME_IMAGES.download} priority />
+            <ContentImage {...HOME_IMAGES.download} />
             <p>
               Download the 2JBet APK to your Android device and follow the installation instructions below.
             </p>

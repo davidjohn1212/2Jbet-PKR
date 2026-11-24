@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "WATCHPACK_POLLING=true next dev -p 3000 --hostname 127.0.0.1",
-    "dev:3000": "WATCHPACK_POLLING=true next dev -p 3000 --hostname 127.0.0.1",
-    "dev:fresh": "rm -rf .next && WATCHPACK_POLLING=true next dev -p 3000 --hostname 127.0.0.1",
-    "build": "next build",
+    "sync:css": "mkdir -p public/css && cp app/globals.css public/css/site.css",
+    "dev": "npm run sync:css && WATCHPACK_POLLING=true next dev -p 3000 --hostname 127.0.0.1",
+    "dev:3000": "npm run sync:css && WATCHPACK_POLLING=true next dev -p 3000 --hostname 127.0.0.1",
+    "dev:fresh": "npm run sync:css && rm -rf .next && WATCHPACK_POLLING=true next dev -p 3000 --hostname 127.0.0.1",
+    "build": "npm run sync:css && next build",
     "start": "next start",
     "lint": "next lint"
   },
