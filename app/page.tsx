@@ -172,11 +172,12 @@ export default function HomePage() {
             src="/images/2jbet-apk.webp"
             alt="2JBet APK icon – official 2JBet Android app logo"
             title="2JBet APK Official App Icon"
-            width={512}
-            height={512}
+            width={200}
+            height={200}
             className="hero-promo-image"
             priority
-            sizes="(max-width: 720px) 38vw, 200px"
+            fetchPriority="high"
+            sizes="(max-width: 720px) 168px, 200px"
           />
         </div>
       </section>
@@ -232,7 +233,7 @@ export default function HomePage() {
         <div className="content-card">
           <section className="content-section" id="what-is">
             <h2>What Is 2JBet?</h2>
-            <ContentImage {...HOME_IMAGES.brand} />
+            <ContentImage {...HOME_IMAGES.brand} priority />
             <p>
               2JBet is an online gaming platform available for users through its supported application and
               services. For a broader overview of how the platform works, see our{" "}

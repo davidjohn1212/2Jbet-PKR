@@ -16,7 +16,7 @@ export function Header() {
         <Link href="/" className="site-brand" aria-label="2JBet PKR Home">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/2jbet-apk.webp"
+            src="/images/2jbet-apk-96.webp"
             alt="2JBet"
             title="2JBet APK Official App Icon"
             width={28}

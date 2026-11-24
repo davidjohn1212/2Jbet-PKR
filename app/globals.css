@@ -1206,12 +1206,20 @@ body {
   position: relative;
   margin: var(--space-lg) 0 0;
   padding: 0;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: #0a0a0a;
+  /* aspect-ratio set inline from image dimensions to reserve space before paint */
 }
 
 .content-image-img {
+  position: absolute;
+  inset: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
+  object-fit: cover;
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
   background: #0a0a0a;
@@ -1470,6 +1478,7 @@ body {
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
+    min-height: 360px;
   }
 
   .hero-content .actions-row {

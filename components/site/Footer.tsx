@@ -8,13 +8,15 @@ export function Footer() {
           <div className="footer-brand">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/2jbet-apk.webp"
+              src="/images/2jbet-apk-56.webp"
               alt="2JBet"
               title="2JBet APK Official App Icon"
-              width={64}
-              height={64}
+              width={56}
+              height={56}
               className="footer-brand-icon"
               decoding="async"
+              loading="lazy"
+              fetchPriority="low"
             />
             <p className="footer-brand-logo-text">
               2JBet <span>PKR</span>

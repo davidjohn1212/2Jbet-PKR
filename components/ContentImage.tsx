@@ -10,7 +10,7 @@ type ContentImageProps = {
   priority?: boolean;
 };
 
-/** SEO-friendly content image with alt, title, and visible description caption. */
+/** SEO-friendly content image with alt, title, and reserved aspect-ratio to prevent CLS. */
 export function ContentImage({
   src,
   alt,
@@ -21,7 +21,7 @@ export function ContentImage({
   priority = false,
 }: ContentImageProps) {
   return (
-    <figure className="content-image">
+    <figure className="content-image" style={{ aspectRatio: `${width} / ${height}` }}>
       <Image
         src={src}
         alt={alt}
@@ -31,6 +31,8 @@ export function ContentImage({
         className="content-image-img"
         sizes="(max-width: 900px) 100vw, min(900px, 100%)"
         priority={priority}
+        loading={priority ? "eager" : "lazy"}
+        fetchPriority={priority ? "high" : "auto"}
       />
       <figcaption className="content-image-caption">
         <span className="content-image-caption-title">{title}</span>
